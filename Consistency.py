@@ -10,7 +10,7 @@ colored_header(
 )
 
 "Have you ever watched a movie and noticed a glaring continuity error? Maybe Forrest Gump buying Apple stocks in 1975, the car in the Lord of the Rings, Bradley Cooper holding a fake baby. One moment, you're immersed in the Land of Oz, and the next, you're noticing every time Dorothy's hair grows and shrinks a few inches between shots."
-chat_image = Image.open('C:/Users/galvj/.spyder-py3/consistency/JUNE-DL-img21.png')
+chat_image = Image.open('JUNE-DL-img21.png')
 st.image(chat_image) 
 "There's something funny about our awareness of continuity errors in film. The fact that Harry Potter could fly on a broomstick didn't raise any flags for me, but seeing the bike seat on the broomstick is a glaring error."
 "Much like the world-building in a Hollywood movie, we are not focused on real-world accuracy when we measure Consistency. Rather, we are focused on if the information matches up across systems.   "
@@ -20,7 +20,7 @@ st.image(chat_image)
 "To distinguish the accuracy and consistency, let's start with a quick recap of accuracy.  "
 ''
 st.expander('Expander')
-acc_image = Image.open('C:/Users/galvj/.spyder-py3/consistency/JUNE-DL-img22.png')
+acc_image = Image.open('JUNE-DL-img22.png')
 with st.expander('Define Accuracy!'):
     st.image(acc_image)
 '__Accuracy__ measures whether the data matches the actual or “real world” value. For example: the data says my name is Anna and my name actually is Anna. ',
@@ -29,12 +29,12 @@ with st.expander('Define Accuracy!'):
 
 st.expander('Expander')
 with st.expander('Define Consistency!'):
-    con_image = Image.open('C:/Users/galvj/.spyder-py3/consistency/JUNE-DL-img23.png')
+    con_image = Image.open('JUNE-DL-img23.png')
     st.image(con_image)
 '__Consistency__, on the other hand, measures whether the data matches the same values across the firm. For example, consistent data would mean that my name is listed as Anna in different data sets throughout the firm.   '
 ' __Another example__ My office is listed as SEA, Seattle, and HQ across different systems. '
 ''
-world_image = Image.open('C:/Users/galvj/.spyder-py3/consistency/JUNE-DL-img24.png')
+world_image = Image.open('JUNE-DL-img24.png')
 st.image(world_image) 
 '__Data may be consistent but also inaccurate!__ What would this look like? All of our firm systems may list my name is Anna, but my name may actually be Jordan. For this reason, we need to consider all the dimensions of data quality when assessing our data.  '
 ''
